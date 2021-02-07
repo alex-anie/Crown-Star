@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin-top: 0;
+  padding-top: 0;
+  background-color: rgb(200, 248, 248);
+}
+
+.main_page {
+  background-color: rgb(107, 241, 241);
+  width: 60%;
+  margin: auto;
+}
+
+/* .section_one {
+  float: left;
+} */
+
+/* SECTION ONE :Crownstar
+
+*/
+.section_one .left {
+  float: left;
+  font-family: Chiller;
+}
+
+.section_one .left .crownstar {
+  font-family: Chiller;
+  font-size: 40px;
+  padding-left: 70px;
+}
+
+.section_one .left p {
+  font-family: Chiller;
+  font-size: 80px;
+  line-height: 20px;
+}
+
+.section_one .left .x {
+  font-family: Chiller;
+  font-size: 80px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.section_one .left p sup {
+  font-size: 20px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* CROWN LOGO */
+.right img {
+  height: 80px;
+}
+/* SECTION TWO : 40 Leaves
+*/
+div p .leaves {
+  padding-left: 0px;
+  margin-left: 0px;
+  height: 60px;
+}
+
+.right p {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.section_one .right {
+  float: right;
+  background-color: rgb(248, 5, 155);
+  color: #fff;
+  border-left: 5px solid #30011e;
+  border-bottom: 5px solid #30011e;
+  border-radius: 0 0 0 30px;
+  /* top, right, bottom, left */
+  padding: 50px 30px 20px 30px;
+  margin-bottom: 50px;
+}
+
+.section_one .right p {
+  font-family: Impact, Haettenschweiler;
+  font-size: 80px;
+}
+
+/* IMAGE */
+.image_tri {
+  margin: 50px 0 50px 0;
+}
+figure img {
+  clear: both;
+  display: block;
+  height: 400px;
+  align-items: center;
+  margin-left: 15%;
+  margin-top: 30px;
+}
+/* SECTION TWO */
+.section_two {
+  clear: both;
+}
+
+.info_name {
+  float: left;
+  background-color: #fff;
+  border: 3px solid rgb(248, 5, 155);
+  border-radius: 15px;
+  padding: 10px;
+  font-style: italic;
+}
+
+.info_name p {
+  padding: 5px;
+}
+
+.info_subject {
+  float: right;
+  background-color: #fff;
+  border: 3px solid rgb(248, 5, 155);
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+
+.info_subject p {
+  padding: 5px;
+}
+/* Button */
+.btn {
+  display: block;
+  clear: both;
+  padding: 10px 50px 10px 50px;
+  border: 3px solid rgb(248, 5, 155);
+  border-radius: 30px;
+  color: #fff;
+  background-color: #30011e;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 50px;
+  margin-left: 25%;
+}
+.btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.btn:hover,
+.btn a:hover {
+  background-color: #fff;
+  color: #30011e;
+  font-weight: bolder;
+}
+
+/* BACK OF PAGE */
+.main_page2 {
+  background-color: #d96a18;
+  width: 60%;
+  margin: auto;
+}
+
+/* IMAGES */
+.star_image {
+  padding-bottom: 30px;
+  /* border: 3px solid blue; */
+}
+.images_wrapper {
+  width: 70%;
+  margin: auto;
+  padding: 30px 0 30px 0;
+}
+
+/* TABLE */
+.time_table {
+  border: 3px solid rgb(48, 4, 78);
+  width: 70%;
+  margin: auto;
+  background-color: rgb(200, 248, 248);
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.row_one .thead,
+.row_two .thead {
+  padding-right: 40px;
+  /* background-color: rgb(200, 248, 248); */
+}
+
+.last_section .left_crown {
+  float: left;
+}
+
+.right_p {
+  float: right;
+  font-size: 10px;
+  padding: 0 20px 20px 0;
+}
+
+.last_section .left_crown {
+  font-family: Chiller;
+}
+
+.last_section .left_crown .crownstar {
+  font-family: Chiller;
+  font-size: 30px;
+  padding-left: 70px;
+}
+
+.last_section .left_crown p {
+  font-family: Chiller;
+  font-size: 60px;
+  line-height: 20px;
+  padding-left: 70px;
+}
+
+.last_section .left_crown .x {
+  font-family: Chiller;
+  font-size: 60px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.last_section .left_crown p sup {
+  font-size: 15px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.last_section .left_crown .normal_text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  padding-left: 165px;
+  line-height: 40px;
+}
